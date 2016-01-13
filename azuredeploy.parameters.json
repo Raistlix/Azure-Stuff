@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "StorageAccountName": {
+      "value": "dtechecmdev"
+    },
+    "adminUsername": {
+      "value": "DTech"
+    },
+    "adminPassword": {
+      "value": "DTPass.01"
+    },
+    "dnsNameForPublicIP": {
+      "value": "DTechECMDevTest02PublicIP"
+    },
+    "location": {
+      "value": "East US 2"
+    },
+    "virtualNetworkName": {
+      "value": "DTechECMDev"
+    },
+    "vmSize": {
+      "value": "Standard_A2"
+    },
+    "vmName": {
+      "value": "DTechECMDevTest02"
+    },
+    "publicIPAddressName": {
+      "value": "DTechECMDevTest02PublicIP"
+    },
+    "nicName": {
+      "value": "DTechECMDevTest02Nic"
+    }
+  }
+}
