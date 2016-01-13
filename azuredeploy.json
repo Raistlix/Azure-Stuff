@@ -178,7 +178,7 @@
         "typeHandlerVersion": "1.2",
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Raistlix/Azure-Stuff/master/test/mongodb-on-centos/mongo-install-centos.sh"
+            "https://raw.githubusercontent.com/Raistlix/Azure-Stuff/master/mongodb-on-centos/mongo-install-centos.sh"
           ],
           "commandToExecute": "sh mongo-install-centos.sh"
         }
